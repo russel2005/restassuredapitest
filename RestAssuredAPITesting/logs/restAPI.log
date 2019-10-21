@@ -1,0 +1,38 @@
+2019-10-19 00:11:07 INFO  EmployeesRestAPI:17 - ********** Started TC001_GET_All_employees **********
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:88 - *******Checking Content Encoding ********
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:90 - Content Encoding is --> gzip
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:97 - *******Checking Content Length ********
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:99 - Content Length is --> 22
+2019-10-19 00:11:12 WARN  EmployeesRestAPI:102 - Content Lenth is less than 100.
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:70 - *******Checking Content Type ********
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:72 - Content Type is --> text/html; charset=UTF-8
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:28 - *******Checking Response Body ********
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:30 - Response Body--> []
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:48 - *******Checking Response Time ********
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:50 - Response Time is --> 1218
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:79 - *******Checking Server Type ********
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:81 - Server Type is --> text/html; charset=UTF-8
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:38 - *******Checking Status code ********
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:40 - Status Code is --> 200
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:61 - *******Checking Status Line ********
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:63 - Status Line is --> HTTP/1.1 200 OK
+2019-10-19 00:11:12 INFO  EmployeesRestAPI:109 - ********** Finished TC001_GET_All_employees **********
+2019-10-19 00:12:57 INFO  EmployeesRestAPI:17 - ********** Started TC001_GET_All_employees **********
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:88 - *******Checking Content Encoding ********
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:90 - Content Encoding is --> gzip
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:97 - *******Checking Content Length ********
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:99 - Content Length is --> 22
+2019-10-19 00:13:01 WARN  EmployeesRestAPI:102 - Content Lenth is less than 100.
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:70 - *******Checking Content Type ********
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:72 - Content Type is --> text/html; charset=UTF-8
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:28 - *******Checking Response Body ********
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:30 - Response Body--> []
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:48 - *******Checking Response Time ********
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:50 - Response Time is --> 1166
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:79 - *******Checking Server Type ********
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:81 - Server Type is --> nginx/1.16.0
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:38 - *******Checking Status code ********
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:40 - Status Code is --> 200
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:61 - *******Checking Status Line ********
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:63 - Status Line is --> HTTP/1.1 200 OK
+2019-10-19 00:13:01 INFO  EmployeesRestAPI:109 - ********** Finished TC001_GET_All_employees **********
