@@ -1,0 +1,29 @@
+We can also extract the whole response to a String, using the extract().asString() API:
+--------------------------------------------------
+String responseString = get(uri + "/movie/" + testMovie.getId()).then()
+  .assertThat()
+  .statusCode(HttpStatus.OK.value())
+  .extract()
+  .asString();
+assertThat(responseString).isNotEmpty();
+
+Validating Headers and Cookies
+-------------------------------
+We can verify a header or cookie of the response using methods with the same name:
+
+@Test
+public void whenCallingWelcomeEndpoint_thenCorrect() {
+    get(uri + "/welcome").then()
+        .assertThat()
+        .header("sessionId", notNullValue())
+        .cookie("token", notNullValue());
+}
+
+We can also extract the headers and cookies individually:
+-----------------------------------
+Response response = get(uri + "/welcome");
+ 
+String headerName = response.getHeader("sessionId");
+String cookieValue = response.getCookie("token");
+assertThat(headerName).isNotBlank();
+assertThat(cookieValue).isNotBlank();
