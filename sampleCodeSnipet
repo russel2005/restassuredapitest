@@ -27,3 +27,4 @@ String headerName = response.getHeader("sessionId");
 String cookieValue = response.getCookie("token");
 assertThat(headerName).isNotBlank();
 assertThat(cookieValue).isNotBlank();
+
