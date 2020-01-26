@@ -25,6 +25,7 @@ public class TC001_GET_Request {
 		
 		String statusLine = response.getStatusLine();
 		Assert.assertEquals(statusLine, "HTTP/1.1 200 OK");
+		
 	}
 
 }
